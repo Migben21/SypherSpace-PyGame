@@ -1,1 +1,1 @@
-Readme so that GitHub doesn't ----
+SypherSpace Code Bots - Pygame GitHub repository!
