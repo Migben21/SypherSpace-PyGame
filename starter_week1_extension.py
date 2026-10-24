@@ -1,16 +1,3 @@
-"""
-CodeBots - Term 4 - Week 1 EXTENSION scaffold (for fast finishers)
-----------------------------------------------------------------------
-Start from your working solution_week1.py (movement + clamping already
-done), then fill in the TODOs below in order:
-
-  STEP 1: add a target (trophy) the player can collect to WIN
-  STEP 2 (bonus): add walls that block movement, turning it into a maze
-
-Get Step 1 fully working first - test that reaching the target shows
-"You win!" - before starting on Step 2.
-"""
-
 import pygame
 
 # --- Setup -----------------------------------------------------------
