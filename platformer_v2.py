@@ -384,6 +384,9 @@ def main():
     coins = []
     score = 0
 
+    doge_sprite = pygame.image.load("Assets/doge1.png").convert_alpha()
+    doge_sprite = pygame.transform.scale(doge_sprite, (PLAYER_WIDTH, PLAYER_HEIGHT))
+
     def start_level(index):
         """Resets everything needed to begin playing a level from scratch."""
         nonlocal player, coins, score, current_level_index, state
@@ -455,6 +458,7 @@ def main():
         elif state == "playing":
             level = levels[current_level_index]
             draw_level(screen, level, player, coins, score)
+            screen.blit(doge_sprite, player["rect"])  # Draw the doge sprite on top of the player rectangle
 
         elif state == "level_complete":
             level_name = levels[current_level_index]["name"]
