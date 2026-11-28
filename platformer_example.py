@@ -24,7 +24,6 @@ import pygame
 
 # ---------------------------------------------------------------------------
 # 1. SETTINGS
-# These are just variables. Changing a number here changes the whole game!
 # ---------------------------------------------------------------------------
 
 SCREEN_WIDTH = 800
